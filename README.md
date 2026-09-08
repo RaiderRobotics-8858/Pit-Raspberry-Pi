@@ -336,7 +336,7 @@ All third-party names, trademarks, logos, video, competition data, and other mat
 
 FRC MatchMaker's Privacy Policy is available here:
 
-[Privacy Policy](./PRIVACY.md)
+[[Privacy Policy](./PRIVACY.md)](https://github.com/RaiderRobotics-8858/Pit-Raspberry-Pi/blob/main/FRCMatchMakerPrivacyGoogle.md)
 
 ---
 
