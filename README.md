@@ -344,7 +344,7 @@ FRC MatchMaker's Privacy Policy is available here:
 
 FRC MatchMaker's Terms of Service are available here:
 
-[Terms of Service](./TERMS.md)
+[[Terms of Service](./TERMS.md)](https://github.com/RaiderRobotics-8858/Pit-Raspberry-Pi/blob/main/FRCMatchMakerTOSGoogle.md)
 
 ---
 
