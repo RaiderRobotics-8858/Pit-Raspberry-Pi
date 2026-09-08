@@ -18,16 +18,18 @@ FRC MatchMaker is currently operated as an independent project and is not offere
 
 FRC MatchMaker uses YouTube API Services provided by Google LLC.
 
+By using FRC MatchMaker features that interact with YouTube API Services, users agree to be bound by the YouTube Terms of Service.
+
 Use of YouTube and YouTube-hosted content is also subject to the applicable YouTube and Google terms and policies, including:
 
 YouTube Terms of Service:
-https://www.youtube.com/t/terms
+[https://www.youtube.com/t/terms](https://www.youtube.com/t/terms)
 
 Google Privacy Policy:
-https://policies.google.com/privacy
+[https://policies.google.com/privacy](https://policies.google.com/privacy)
 
 YouTube API Services Terms of Service:
-https://developers.google.com/youtube/terms/api-services-terms-of-service
+[https://developers.google.com/youtube/terms/api-services-terms-of-service](https://developers.google.com/youtube/terms/api-services-terms-of-service)
 
 YouTube may independently process, restrict, remove, monetize, block, or otherwise manage videos and other content hosted on its platform according to its own policies.
 
@@ -187,4 +189,4 @@ Continued use of FRC MatchMaker after changes are posted constitutes acceptance 
 Questions regarding these Terms, privacy, published content, or FRC MatchMaker's use of YouTube API Services may be directed to:
 
 **FRC MatchMaker**
-**Email:** [fcrmatchmaker@gmail.com](mailto:fcrmatchmaker@gmail.com)
+**Email:** [frcmatchmaker@gmail.com](mailto:frcmatchmaker@gmail.com)
