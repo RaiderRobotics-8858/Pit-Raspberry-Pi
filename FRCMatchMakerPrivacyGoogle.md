@@ -1,6 +1,6 @@
 # FRC MatchMaker Privacy Policy
 
-**Last updated: September 7, 2026**
+**Last updated: September 8, 2026**
 
 FRC MatchMaker is an independently developed software application that creates, organizes, and publishes individual FIRST Robotics Competition match videos to YouTube.
 
@@ -87,15 +87,19 @@ FRC MatchMaker does not use YouTube API data to create advertising profiles or t
 
 FRC MatchMaker retains publishing information only as needed to operate and maintain the FRC MatchMaker publishing workflow and to comply with applicable YouTube API Services policies.
 
-Authorization to access the Google/YouTube account can be revoked at any time through the Google Account permissions page:
+Authorization to access the Google/YouTube account can be revoked at any time through Google's security settings page:
 
-https://myaccount.google.com/permissions
+[https://security.google.com/settings/security/permissions](https://security.google.com/settings/security/permissions)
 
 If authorization is revoked, FRC MatchMaker will no longer be able to access the authorized YouTube account through the revoked credentials.
 
+Following revocation, FRC MatchMaker will delete or refresh stored YouTube API data associated with the revoked authorization as required by applicable YouTube API Services policies.
+
 Locally stored OAuth credentials associated with FRC MatchMaker can also be deleted by the operator to remove the application's stored authorization.
 
-Requests concerning data associated with FRC MatchMaker may be submitted using the contact information below.
+Requests to delete data associated with FRC MatchMaker may be submitted using the contact information below. Such requests will be handled in accordance with applicable YouTube API Services policies.
+
+Deleting data stored by FRC MatchMaker does not delete data stored by YouTube. YouTube content must be deleted or managed through YouTube or another authorized YouTube API client that supports those actions.
 
 ## Public YouTube Content
 
@@ -126,4 +130,4 @@ The current version will be maintained at this publicly accessible location.
 Questions regarding this Privacy Policy or FRC MatchMaker's use of YouTube API Services may be directed to:
 
 **FRC MatchMaker**
-**Email:** [fcrmatchmaker@gmail.com](mailto:fcrmatchmaker@gmail.com)
+**Email:** [frcmatchmaker@gmail.com](mailto:frcmatchmaker@gmail.com)
