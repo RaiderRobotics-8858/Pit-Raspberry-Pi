@@ -120,7 +120,9 @@ This allows individual problems to be corrected without restarting or rebuilding
 
 ### YouTube Publishing
 
-Finished and certified match videos can be published through the YouTube Data API.
+Finished and certified match videos can be published through the YouTube Data API to the FRC MatchMaker channel
+
+https://www.youtube.com/@FRCMatchMaker
 
 The publisher manages:
 
