@@ -1,6 +1,6 @@
 # RDI MatchMaker Privacy Policy
 
-**Last updated: September 8, 2026**
+**Last updated: October 2, 2026**
 
 RDI MatchMaker is an independently developed software application that creates, organizes, and publishes individual FIRST Robotics Competition match videos to YouTube.
 
