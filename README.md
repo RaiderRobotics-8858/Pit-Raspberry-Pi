@@ -1,6 +1,6 @@
-# FRC MatchMaker
+# RDI MatchMaker
 
-FRC MatchMaker is an independently developed video processing and publishing system for FIRST Robotics Competition events.
+RDI MatchMaker is an independently developed video processing and publishing system for FIRST Robotics Competition events.
 
 Its purpose is to turn long-form event video into individual match videos, associate those videos with the correct competition data, produce consistent match graphics, and publish the finished matches to YouTube in a way that is easy for teams and event participants to navigate for scouting.
 
@@ -8,13 +8,13 @@ The project is designed around a simple idea:
 
 > A robotics team should not have to search through hours of livestream footage to find its matches.
 
-FRC MatchMaker automates that work.
+RDI MatchMaker automates that work.
 
 ---
 
-## What FRC MatchMaker Does
+## What RDI MatchMaker Does
 
-FRC MatchMaker processes event video and competition data to create individual match deliverables.
+RDI MatchMaker processes event video and competition data to create individual match deliverables.
 
 For each match, the system can:
 
@@ -34,7 +34,7 @@ The result is a searchable and organized video library rather than a collection 
 
 ## Why It Exists
 
-FIRST Robotics Competition events generate a large amount of valuable video.
+Robotics competition events generate a large amount of valuable video.
 
 That footage can be useful for:
 
@@ -51,7 +51,7 @@ The problem is that event video is commonly published as long livestream recordi
 
 Finding one match may require manually locating the correct broadcast, identifying the approximate timestamp, and scrubbing through the recording.
 
-FRC MatchMaker is intended to remove that friction.
+RDI MatchMaker is intended to remove that friction.
 
 A team-specific playlist can provide direct access to that team's entire event without requiring the viewer to search through the original broadcast.
 
@@ -59,7 +59,7 @@ A team-specific playlist can provide direct access to that team's entire event w
 
 ## System Overview
 
-FRC MatchMaker is built as a set of cooperating components rather than a single monolithic process.
+RDI MatchMaker is built as a set of cooperating components rather than a single monolithic process.
 
 The system currently includes functionality for:
 
@@ -67,11 +67,11 @@ The system currently includes functionality for:
 
 Competition information is associated with event and match records so video segments can be matched with the correct teams, scores, rankings, and match identifiers.
 
-The Blue Alliance is used as a source of publicly available FRC event information.
+TheBlueAlliance.com is used as a source of publicly available event information.
 
 ### Media Intake
 
-FRC MatchMaker can work with both live event media and completed VOD sources.
+RDI MatchMaker can work with both live event media and completed VOD sources.
 
 Live event operation is designed around a growing local media buffer so matches can be processed while the event is still in progress.
 
@@ -85,7 +85,7 @@ Segments retain source information so media from different livestreams, event da
 
 ### Match Binding
 
-Detected video segments are associated with FRC match records.
+Detected video segments are associated with match records.
 
 The system is designed to handle real event conditions such as:
 
@@ -97,7 +97,7 @@ The system is designed to handle real event conditions such as:
 
 ### Graphics and Deliverables
 
-FRC MatchMaker generates match-specific visual assets and final video deliverables.
+RDI MatchMaker generates match-specific visual assets and final video deliverables.
 
 These may include:
 
@@ -114,15 +114,15 @@ The original event video remains separate from the final published deliverables.
 
 Automation is intended to do most of the work, but real event video is imperfect.
 
-FRC MatchMaker includes operator-assisted review and repair workflows for cases where automatic processing cannot confidently determine the correct result.
+RDI MatchMaker includes operator-assisted review and repair workflows for cases where automatic processing cannot confidently determine the correct result.
 
 This allows individual problems to be corrected without restarting or rebuilding the entire event.
 
 ### YouTube Publishing
 
-Finished and certified match videos can be published through the YouTube Data API to the FRC MatchMaker channel
+Finished and certified match videos can be published through the YouTube Data API to the RDI MatchMaker channel
 
-https://www.youtube.com/@FRCMatchMaker
+https://www.youtube.com/@RoboticDreamInstitute
 
 The publisher manages:
 
@@ -149,7 +149,7 @@ For example, a team can open its event playlist and immediately see every match 
 
 ## Live Event Operation
 
-FRC MatchMaker is being developed with live-event use as a primary goal.
+RDI MatchMaker is being developed with live-event use as a primary goal.
 
 The intended workflow is:
 
@@ -168,12 +168,12 @@ Quality Control
         ↓
 Certified Match Video
         ↓
-YouTube Publishing
+Publishing
         ↓
 Event + Team Playlists
 ```
 
-The objective is to make completed matches available while the tournament is still underway rather than waiting until the event is over.
+The objective is to make completed matches available for scouting while the tournament is still underway rather than waiting until the event is over.
 
 The system is also designed to resume after interruption and preserve completed work rather than treating every restart as a new event.
 
@@ -181,7 +181,7 @@ The system is also designed to resume after interruption and preserve completed 
 
 ## Publishing Philosophy
 
-FRC MatchMaker treats publishing as a recoverable workflow.
+RDI MatchMaker treats publishing as a recoverable workflow.
 
 A successful upload is recorded immediately so later API failures do not create duplicate videos.
 
@@ -203,7 +203,7 @@ Event organization and playlist membership remain a major part of the publishing
 
 ## Event and Team Playlists
 
-Playlist organization is one of the primary features of FRC MatchMaker.
+Playlist organization is one of the primary features of RDI MatchMaker.
 
 An event playlist provides chronological access to the event's individual match videos.
 
@@ -224,9 +224,9 @@ This allows the published video collection to function as an event archive, a sc
 
 ## Replays and Corrections
 
-FRC events occasionally replay matches.
+Events occasionally replay matches.
 
-FRC MatchMaker is designed to preserve replay occurrences rather than assuming that a match number corresponds to only one piece of video.
+RDI MatchMaker is designed to preserve replay occurrences rather than assuming that a match number corresponds to only one piece of video.
 
 The system also supports repair workflows for:
 
@@ -260,7 +260,7 @@ The architecture is intended to keep event processing local while using external
 
 ## Project Status
 
-FRC MatchMaker is under active development.
+RDI MatchMaker is under active development.
 
 Major capabilities already implemented or in active testing include:
 
@@ -272,7 +272,7 @@ Major capabilities already implemented or in active testing include:
 * Manual repair workflows
 * Match title and score graphics
 * Certified match deliverables
-* YouTube publishing
+* Publishing
 * Event playlists
 * Team playlists
 * Persistent publishing state
@@ -285,7 +285,7 @@ Development continues around scalability, publishing limits, event presentation,
 
 ## YouTube API Usage
 
-FRC MatchMaker uses YouTube API Services to manage its publishing workflow.
+RDI MatchMaker uses YouTube API Services to manage its publishing workflow for YouTube.
 
 API operations may include:
 
@@ -298,7 +298,7 @@ API operations may include:
 * Reading processing status
 * Reading basic authenticated channel information
 
-FRC MatchMaker uses Google OAuth 2.0 authorization for operations performed on the authorized YouTube account.
+RDI MatchMaker uses Google OAuth 2.0 authorization for operations performed on the authorized YouTube account.
 
 The publisher is currently an operator-run application and is not a public bulk-upload service.
 
@@ -306,17 +306,17 @@ The publisher is currently an operator-run application and is not a public bulk-
 
 ## Data Sources
 
-FRC MatchMaker may use publicly available FRC competition information from services including The Blue Alliance.
+RDI MatchMaker may use publicly available competition information from services including TheBlueAlliance.com.
 
-The Blue Alliance is an independent third-party service.
+TheBlueAlliance.com is an independent third-party service.
 
-FRC MatchMaker is not affiliated with or operated by The Blue Alliance.
+RDI MatchMaker is not affiliated with or operated by TheBlueAlliance.com.
 
 ---
 
 ## Independence and Trademarks
 
-FRC MatchMaker is an independent project.
+RDI MatchMaker is an independent project.
 
 It is not affiliated with, sponsored by, endorsed by, or operated by:
 
@@ -325,10 +325,6 @@ It is not affiliated with, sponsored by, endorsed by, or operated by:
 * Google
 * YouTube
 * The Blue Alliance
-* Participating teams
-* Event organizers
-* Broadcasters
-* Venues
 
 All third-party names, trademarks, logos, video, competition data, and other materials remain the property of their respective owners.
 
@@ -336,23 +332,23 @@ All third-party names, trademarks, logos, video, competition data, and other mat
 
 ## Privacy Policy
 
-FRC MatchMaker's Privacy Policy is available here:
+RDI MatchMaker's Privacy Policy is available here:
 
-[[Privacy Policy](./PRIVACY.md)](https://github.com/RaiderRobotics-8858/Pit-Raspberry-Pi/blob/main/FRCMatchMakerPrivacyGoogle.md)
+[[Privacy Policy](./PRIVACY.md)](https://github.com/RaiderRobotics-8858/Pit-Raspberry-Pi/blob/main/RDIMatchMakerPrivacyGoogle.md)
 
 ---
 
 ## Terms of Service
 
-FRC MatchMaker's Terms of Service are available here:
+RDI MatchMaker's Terms of Service are available here:
 
-[[Terms of Service](./TERMS.md)](https://github.com/RaiderRobotics-8858/Pit-Raspberry-Pi/blob/main/FRCMatchMakerTOSGoogle.md)
+[[Terms of Service](./TERMS.md)](https://github.com/RaiderRobotics-8858/Pit-Raspberry-Pi/blob/main/RDIMatchMakerTOSGoogle.md)
 
 ---
 
 ## Contact
 
-Questions about FRC MatchMaker may be directed to:
+Questions about RDI MatchMaker may be directed to:
 
-**FRC MatchMaker**
-**Email:** [fcrmatchmaker@gmail.com](mailto:fcrmatchmaker@gmail.com)
+**RDI MatchMaker**
+**Email:** [robotic.dream.institute@gmail.com](mailto:robotic.dream.institute@gmail.com)
